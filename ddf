@@ -1,0 +1,34 @@
+
+.navbar {
+    min-height: 80px;
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+    float: right;
+    gap: 50px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: var(--accent);
+    padding: 5px 10px;
+    font-family: var(--poppins);
+    font-size: 17px;
+}
+
+.navbar ul li a:hover {
+    color: black;
+}
