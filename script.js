@@ -17,6 +17,4 @@ window.addEventListener('scroll', () => {
         navbar.style.backgroundColor = "transparent"
     }
 
-
-    console.log(position);
 });
